@@ -10,6 +10,38 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 ***
 [**Back to github.io**][github.io]
 
+***
+## Content  
+* [Introduction](#introduction)  
+* Targets  
+* Design  
+* Result  
+* Conclusion  
+
+***  
+Introduction  
+---  
+
+***
+Targets  
+---  
+
+***  
+Design  
+---  
+
+***  
+Result  
+---  
+
+***  
+Conclusion  
+---  
+
+
+
+
+
 
 
 

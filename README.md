@@ -15,7 +15,6 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 * [Introduction](#introduction)  
 * [Targets](#targets)  
 * [Design](#design)  
-* [Result](#result)  
 * [Conclusion](#conclusion)   
 
 ***   
@@ -47,18 +46,31 @@ The softhand project is mainly divided into four parts:
 ### Making flexible hand body   
 We adopt the air-actuated method. The subject material of the actuator is made of silicone and disigned usign PN(PneuNets) structure.  
 ![](/fig/PN.png)  
+Then we use Abaqus software to perform FEM analysis on PneuNet actuators. FEM allows us to model the actuator and see how to change various parameters.  
+![](/fig/FEM.png)  
+The PneuNets actuator consists of two main parts: the main body and the bottom layer. The body includes an actuating chamber and the bottom layer includes a strain limited material. The two parts wer molded separately and glued together, where the 3D printing technology was used to make the mold. Here is the entire production process.  
+![](/fig/process.png)   
+The result is as follows:  
+![](/fig/handbody.png)   
 
+### Hardware circuit design  
+The block diagram of the entire control system is shown below. we use stm32 as controller, the solenoid valve as the actuation switch, 6V air pump as actuation source, the grasper acts as the controlled body, and the gyroscope to  perform the automatic control of the attitude.  
+![](/fig/sch.png)  
+Specific related designs can be viewed [Flexible Robot References][Flexible robot references]. The final circuit is as follows:  
+![](/fig/circuit.png)  
 
+### The upper computer interface preparation  
 
+The upper computer interface is written by Qt software and the effect is shown in the below figure.  
+![](/fig/interface.png)  
 
-***  
-Result  
----  
+###  Handwritten digit recognition  
+Due to the work that is was done by another person in our group, the data has not been organized ,so write it skip ^-^  
 
 ***  
 Conclusion  
 ---  
-
+Through this project, I have improved the purchase of hardware materials, the circuit design, the pracitcal ability has been strengthened, and I have learned and studied the use of software such as soliworks, keil5 and qt5 etc. The important goal is to make me have a deep understanding of the complete project. Here I thank my team!^-^  
 
 
 

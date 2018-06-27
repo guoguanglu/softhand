@@ -13,21 +13,21 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 ***
 ## Content  
 * [Introduction](#introduction)  
-* Targets  
-* Design  
-* Result  
-* Conclusion  
+* [Targets](#targets)  
+* [Design](#design)  
+* [Result](#result)  
+* [Conclusion](#conclusion)   
 
-***  
-Introduction  
+***   
+Introduction   
 ---  
 
 ***
-Targets  
+Targets   
 ---  
 
 ***  
-Design  
+Design   
 ---  
 
 ***  
